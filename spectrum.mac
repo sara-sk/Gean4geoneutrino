@@ -1,0 +1,28 @@
+/run/initialize
+
+/tracking/verbose 1
+/run/beamOn 1
+
+#/gps/ang/mintheta 45 deg
+#/gps/ang/maxtheta 45 deg
+/gps/ang/type iso
+/gps/particle e-
+/gps/pos/type Point
+/gps/pos/centre 0. 2. 0. cm
+
+/gps/ene/type Arb
+/gps/ene/diffspec 1
+/gps/hist/type arb
+
+/gps/hist/point 0.4461  0.68
+/gps/hist/point 0.4512  0.032
+/gps/hist/point 0.5727  0.21
+/gps/hist/point 0.6314  1.90
+/gps/hist/point 0.7394  1.44
+/gps/hist/point 1.5248  4.5
+/gps/hist/point 2.2521  55.31
+
+/gps/hist/inter Lin
+
+
+/run/beamOn 30000
